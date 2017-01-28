@@ -1,0 +1,21 @@
+-debugger is important.
+--taken advantage of in node, which compiles and runs our code automatically for us
+--without a debugger, i would be flailing around whenever i encountered an error in my code.
+--it is not enough to write code, there are going to be failures, which I am intimately aware of
+in my own process to write code. Even without the fundamental flaws in my design and code, there are
+simple errors and typos that could completely bring my development to standstill ... without a
+debugger to notfy me what happened and where.
+--gives the what, where, when, how
+--set breakpoints
+--look at values and variables
+--when things crash it will give you backtraces which will show you where things blew up
+---the difference between a breakpoint and a backtrace, is a breakpoint is set by the user, and
+shows up when the program being run hits the set. It typically assumes that you will reach a
+breakpoint before a crash occurs so it's proactive.
+---a backtrace is defensive in the sense that when an error occurs, which typically will be unexpected
+the backtrace will show you where it happened. This is important because unlike the proactive
+approach which requires you to setup a breakpoint beforehand, a backtrace automatically shows you
+where an error occurs. And as is common with an error, you do not know where it will occur. The bt
+shows you what you don't know.
+---
+
