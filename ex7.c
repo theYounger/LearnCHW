@@ -38,8 +38,3 @@ int main(int argc, char *argv[])
 
   return 0;
 }
-
-/* TYPE NAME(ARG1, ARG2, ...) {
-  CODE;
-  return VALUE;
-}
